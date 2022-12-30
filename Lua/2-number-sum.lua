@@ -1,7 +1,7 @@
 print("Variable A float:")
-variable_a = tonumber(io.read())
+local variable_a = tonumber(io.read())
 print("Variable B float:")
-variable_b = tonumber(io.read())
+local variable_b = tonumber(io.read())
 
 print("Which sum?\n1. addition + \n2. subtraction - \n3. multiplication *\n4. division /\n5. All\n")
 -- Declare variables to store the input values
